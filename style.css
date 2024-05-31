@@ -1,0 +1,526 @@
+body {
+    margin: 0;
+    padding-bottom: 100px;
+}
+
+
+
+/* main-container style */
+
+.main-container {
+    display: flex;
+    gap: 49px;
+    width: 1200px;
+    margin: auto;
+}
+
+.main-container .left-section {
+    background-color: #F7F9FC;
+    height: 100%;
+    width: 355.56px;
+    padding-bottom: 650px;
+}
+
+.info-section,
+.profile-info {
+    padding-left: 48.48px;
+    padding-right: 48.48px;
+}
+
+/* profile section style */
+.profile {
+    margin-bottom: 32.32px;
+}
+
+.left-section .profile img {
+    width: 355.56px;
+    height: 161.62px;
+    margin-bottom: 33px;
+    padding: 0px;
+}
+
+.profile h2 {
+    color: #2E2E48;
+    font-size: 32.32px;
+    font-family: "Outfit";
+    font-weight: 500;
+    margin-bottom: 8.8px;
+    line-height: 40.4px;
+}
+
+.profile .product-design {
+    font-size: 24.24px;
+    font-family: "Outfit";
+    line-height: 32.32px;
+    font-weight: 500;
+    background: linear-gradient(90deg, #A478E8 0%, #516CF7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.profile p {
+    font-family: "Outfit";
+    color: #47516B;
+    font-size: 18.18px;
+    line-height: 24.24px;
+    width: 259.03px;
+    height: 49px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 4.04px;
+}
+
+.left-quote {
+    position: absolute;
+    font-size: 35px;
+    left: 12px;
+}
+
+.right-quote {
+    position: absolute;
+    right: 20px;
+    font-size: 35px;
+}
+
+.quote-name {
+    padding-left: 31px;
+    color: #79819A;
+    font-size: 12.12px;
+    font-weight: 400;
+    font-family: "DM Sans";
+}
+
+.left-side-horizontal-line {
+    width: 259.03px;
+    border-top: 1px solid #E2E6EE;
+    margin-bottom: 32.32px;
+}
+
+.contact p,
+.social p,
+.language p {
+    color: #79819A;
+    font-family: "DM Sans";
+    font-size: 12.12px;
+    font-weight: 400;
+    line-height: 16.16px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 16.16px;
+    margin-bottom: 24.24px;
+}
+
+.contact-item div {
+    display: flex;
+    flex-direction: column;
+    gap: 4.04px;
+}
+
+.contact-item .contact-label {
+    font-size: 12.12px;
+    font-family: "DM Sans";
+    font-weight: 400;
+    color: #79819A;
+}
+
+.contact-item .contact-value {
+    font-size: 14.14px;
+    font-family: "DM Sans";
+    font-weight: 500;
+    color: #47516B;
+}
+
+
+
+/* Right section style */
+
+.right-section {
+    width: calc(100% - 355.56px);
+}
+
+.project-section p {
+    font-family: "Outfit";
+    font-size: 24.24px;
+    font-weight: 500;
+    line-height: 32.32px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-bottom: 32.32px;
+}
+
+.project-section {
+    margin-bottom: 48px;
+}
+
+.projects-container {
+    display: flex;
+    gap: 8.08px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    background-color: #F7F9FC;
+    padding: 25px;
+    border-radius: 8.08px 0px 0px 8.08px;
+    width: 320px;
+    height: 168.93px;
+}
+
+.projects .project-name {
+    display: flex;
+    gap: 16.16px;
+}
+
+.project-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 16.16px;
+}
+
+.project-title {
+    color: #2E2E48;
+    font-size: 16.16px;
+    font-family: "DM Sans";
+    font-weight: 500;
+}
+
+.project-desc {
+    color: #79819A;
+    font-size: 14.14px;
+    width: 200px;
+    font-weight: 400;
+}
+
+.project-link {
+    display: flex;
+    align-items: center;
+    gap: 12.12px;
+}
+
+.project-link a {
+    text-decoration: none;
+    color: #516CF7;
+    font-family: 'Outfit';
+    font-weight: 600;
+    font-size: 16.16px;
+}
+
+/* experience style section */
+
+.experience-section .exp-title,
+.skill-title,
+.tool-title,
+.education-title {
+    font-family: "Outfit";
+    font-size: 24.24px;
+    font-weight: 500;
+    line-height: 32.32px;
+    letter-spacing: 0.01em;
+    color: #2E2E48;
+    margin-bottom: 32px;
+}
+
+.experience {
+    display: flex;
+    padding-bottom: 35px;
+}
+
+.experience-left {
+    width: 310px;
+}
+
+.experience-right {
+    width: 560px;
+}
+
+.experience-left span {
+    color: #47516B;
+    font-family: "DM Sans";
+    font-size: 10.1px;
+    font-weight: 400;
+    line-height: 13.15px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+}
+
+.experience-left-content {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 8.08px;
+}
+
+.experience-left-content p {
+    font-family: "DM Sans";
+    font-size: 12.12px;
+    font-weight: 400;
+    line-height: 16.16px;
+    letter-spacing: 0.01em;
+    color: #79819A;
+    margin: 0px;
+}
+
+
+
+.experience-left-content img {
+    margin-right: 16px;
+}
+
+.experience-left-content .company-name {
+    color: #2E2E48;
+    font-family: "DM Sans";
+    font-size: 14.14px;
+    font-weight: 500;
+    line-height: 18.18px;
+    margin-top: 4.04px;
+}
+
+.location {
+    width: 8px;
+}
+
+/* eudcation style section */
+.education-container {
+    display: flex;
+    gap: 8.08px;
+    margin-bottom: 48px;
+}
+
+
+.education {
+    width: 227.61px;
+    height: 122.91px;
+    padding: 16.16px 24.24px 16.16px 24.24px;
+    border-radius: 8.08px 0px 0px 8.08px;
+    background-color: #F7F9FC;
+}
+
+.education .education-top {
+    display: flex;
+    align-items: center;
+    gap: 15.74px;
+}
+
+.education-top span {
+    font-family: "DM Sans";
+    font-size: 12.12px;
+    font-weight: 500;
+    line-height: 16.16px;
+    text-align: left;
+    color: #2E2E48;
+}
+
+.education-bottom p {
+    font-family: "DM Sans";
+    font-size: 14.14px;
+    font-weight: 500;
+    line-height: 18.18px;
+    text-align: left;
+    color: #2E2E48;
+    margin: 0px;
+}
+
+.education-bottom span {
+    font-family: "DM Sans";
+    font-size: 10.1px;
+    font-weight: 400;
+    line-height: 13.15px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #79819A;
+    margin-top: 2.02px;
+}
+
+
+/* skill section style */
+
+.skills {
+    display: flex;
+
+}
+
+.skill-container .skill-title {
+    width: 113.13px;
+    height: 83.65px;
+    padding: 16.16px 0px 16.16px 0px;
+    gap: 8.08px;
+    border-radius: 8.08px 0px 0px 0px;
+}
+
+.skill-title p {
+    margin: 0px;
+    margin-top: 8.08px;
+}
+
+.skill-title {
+    font-family: "DM Sans";
+    font-size: 14.14px;
+    font-weight: 500;
+    line-height: 18.18px;
+    text-align: left;
+    color: #2E2E48;
+}
+
+.skill div.first-skill {
+    display: flex;
+    width: 216.67px;
+    justify-content: center;
+    align-items: center;
+    height: 83.65px;
+    padding: 16.16px;
+    gap: 8.08px;
+    border-radius: 8.08px 0px 0px 8.08px;
+    background-color: #F7F9FC;
+}
+
+.skill div span {
+    padding: 10px;
+    font-family: "DM Sans";
+    font-size: 14.14px;
+    font-weight: 600;
+    line-height: 18.18px;
+    text-align: center;
+    color: #9251F7;
+}
+
+.skill .skill-vertical-bar {
+    border-right: 2px solid #E2E6EE;
+}
+
+.skills-list {
+    display: flex;
+    gap: 8.08px;
+    color: #9251F7;
+    justify-content: center;
+    align-items: center;
+    height: 83.65px;
+    padding: 16.16px;
+}
+
+
+
+.skills-list div.user-experience p {
+    display: flex;
+    align-items: center;
+    background-color: #F7F9FC;
+    padding: 16.16px 30px;
+    height: 83.65px;
+    font-family: "DM Sans";
+    font-size: 14.14px;
+    font-weight: 600;
+    line-height: 18.18px;
+    text-align: left;
+    color: #9251F7;
+}
+
+.skills-list .skill-listing {
+    font-family: "DM Sans";
+    font-size: 14.14px;
+    font-weight: 600;
+    line-height: 18.18px;
+    text-align: left;
+    padding: 16.16px;
+    background-color: #F7F9FC;
+}
+
+.skill-listing ul {
+    padding-left: 20px;
+}
+
+.design-last-child {
+    display: flex;
+    align-items: center;
+    width: 82.32px;
+    height: 83.65px;
+    padding: 16.16px;
+    border-radius: 0px 8.08px 8.08px 0px;
+    background-color: #F7F9FC;
+    color: #9251F7;
+    font-family: "DM Sans";
+    font-size: 14.14px;
+    font-weight: 600;
+    line-height: 18.18px;
+    text-align: left;
+
+}
+
+.development-first-child {
+    display: flex;
+    align-items: center;
+    background-color: #F7F9FC;
+    color: #9251F7;
+    font-family: "DM Sans";
+    font-size: 14.14px;
+    font-weight: 600;
+    line-height: 18.18px;
+    text-align: left;
+    width: 82.32px;
+    height: 83.65px;
+    padding: 16.16px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+/* tool section style */
+.tool-container div {
+    display: flex;
+    gap: 8.08px;
+    margin-bottom: 8px;
+}
+
+.tool {
+    width: 168.69px;
+    height: 129.29px;
+    padding: 16.16px 0px 0px 0px;
+    border-radius: 8.08px 0px 0px 0px;
+    background-color: #F7F9FC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tool-second-row {
+    width: 133.33px;
+    height: 113.13px;
+    padding: 16.16px 0px 0px 0px;
+    border-radius: 0px 0px 0px 8.08px;
+    background-color: #F7F9FC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.tool p, .tool-second-row p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.tool p.tool-name {
+    margin-top: 8.08px;
+    margin-bottom: 2.02px;
+    font-family: "DM Sans";
+    font-size: 14.14px;
+    font-weight: 500;
+    line-height: 18.18px;
+    text-align: left;
+    color: #2E2E48;
+}
+
+.tool .tool-desc, .tool-second-row .tool-desc {
+    font-family: "DM Sans";
+    font-size: 10.1px;
+    font-weight: 400;
+    line-height: 13.15px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #79819A;
+}
