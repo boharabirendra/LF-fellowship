@@ -6,12 +6,23 @@ body {
 
 
 /* main-container style */
-
 .main-container {
     display: flex;
     gap: 49px;
     width: 1200px;
     margin: auto;
+}
+
+/* responsive for mobile phone */
+@media (max-width: 600px) {
+    .main-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main-container .left-section {
+        background-color: red;
+    }
 }
 
 .main-container .left-section {
@@ -371,15 +382,30 @@ body {
 
 .skill div.first-skill {
     display: flex;
-    width: 216.67px;
+    width: 160px;
     justify-content: center;
     align-items: center;
     height: 83.65px;
-    padding: 16.16px;
+    padding: 16.16px 12px;
     gap: 8.08px;
     border-radius: 8.08px 0px 0px 8.08px;
     background-color: #F7F9FC;
 }
+
+.last-child-development .first-skill {
+    display: flex;
+    width: 135px;
+    justify-content: center;
+    align-items: center;
+    height: 83.65px;
+    font-weight: 600;
+    padding: 16.16px 11px;
+    gap: 8.08px;
+    background-color: #F7F9FC;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
 
 .skill div span {
     padding: 10px;
@@ -469,6 +495,28 @@ body {
     border-bottom-left-radius: 8px;
 }
 
+.html-span {
+    display: inline-block;
+    padding: 16px 10px;
+    border-right: 2px solid #E2E6EE;
+}
+
+.development-css-js {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 16px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.development-css {
+    padding: 16px 10px;
+    border-bottom: 2px solid #E2E6EE;
+}
+
+
+
 /* tool section style */
 .tool-container div {
     display: flex;
@@ -499,7 +547,8 @@ body {
 }
 
 
-.tool p, .tool-second-row p {
+.tool p,
+.tool-second-row p {
     margin: 0px;
     padding: 0px;
 }
@@ -515,7 +564,8 @@ body {
     color: #2E2E48;
 }
 
-.tool .tool-desc, .tool-second-row .tool-desc {
+.tool .tool-desc,
+.tool-second-row .tool-desc {
     font-family: "DM Sans";
     font-size: 10.1px;
     font-weight: 400;
