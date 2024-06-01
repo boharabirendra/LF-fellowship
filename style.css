@@ -489,6 +489,10 @@
         align-items: start;
     }
 
+    .skill__container__top__item__right{
+        padding-left: 50px;
+    }
+
     /* tool section */
     .tool__container__top{
         grid-template-columns: repeat(2, 1fr);
