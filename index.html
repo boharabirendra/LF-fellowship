@@ -4,362 +4,437 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link rel="stylesheet" href="./style.css">
     <title>Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <!-- Parent div/Container -->
-    <div class="main-container">
-        <div class="left-section">
-            <div class="profile">
-                <div class="image">
-                    <img src="./assets/Image.png" alt="profile image">
-                </div>
-                <div class="profile-info">
-                    <h2>Chiara Bianchi</h2>
-                    <span class="product-design">Product Designer</span>
-                    <p>
-                        <span class="left-quote">&ldquo;</span> <span>Design isn't finished until <br> somebody is using
-                            it.</span> <span class="right-quote">&rdquo;</span> <br>
-                    </p>
-                    <span class="quote-name">Brenda Laurel</span>
-                </div>
+    <div class="container">
+        <aside class="container__sidebar">
+            <!-- Profile section -->
+            <div class="container__sidebar__image">
+                <img src="./assets/profile.png" alt="">
             </div>
-            <hr class="left-side-horizontal-line">
-            <div class="info-section">
-                <div class="contact">
+            <div class="container__sidebar_content">
+                <h2>Chiara Bianchi</h2>
+                <h4>Product Designer</h4>
+                <blockquote class="container__sidebar__content__quote">
+                    <p>Design isn’t finished until somebody is using it.</p>
+                </blockquote>
+            </div>
+            <!-- Sidebar content section -->
+            <div class="container__sidebar_content">
+                <!-- Contact section -->
+                <div class="container__sidebar__content__contact">
                     <p>Contacts</p>
-                    <div class="contact-item">
-                        <img src="./assets/email.png" alt="">
+                    <div class="container__sidebar__content__contact__item">
                         <div>
-                            <span class="contact-label">Email</span>
-                            <span class="contact-value">chiara.bianchi@gmail.com</span>
+                            <img src="./assets/email.png" alt="email">
+                        </div>
+                        <div>
+                            <div class="contact__title">
+                                <span>Email</span>
+                            </div>
+                            <div class="contact__value">
+                                <span>chiara.bianchi@gmail.com</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="contact-item">
-                        <img src="./assets/website.png" alt="">
+                    <div class="container__sidebar__content__contact__item">
                         <div>
-                            <span class="contact-label">Website</span>
-                            <span class="contact-value">https://aldesign.it</span>
+                            <img src="./assets/website.png" alt="website">
+                        </div>
+                        <div>
+                            <div class="contact__title">
+                                <span>Website</span>
+                            </div>
+                            <div class="contact__value">
+                                <span>https://aldesign.it</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="contact-item">
-                        <img src="./assets/phone.png" alt="">
+                    <div class="container__sidebar__content__contact__item">
                         <div>
-                            <span class="contact-label">Phone</span>
-                            <span class="contact-value">(+39) 333 0123 765</span>
+                            <img src="./assets/phone.png  " alt="phone">
+                        </div>
+                        <div>
+                            <div class="contact__title">
+                                <span>Phone</span>
+                            </div>
+                            <div class="contact__value">
+                                <span>(+39) 333 0123 765</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="contact-item">
-                        <img src="./assets/address.png" alt="">
+                    <div class="container__sidebar__content__contact__item">
                         <div>
-                            <span class="contact-label">Address</span>
-                            <span class="contact-value">Bologna, Italy</span>
+                            <img src="./assets/address.png" alt="address">
+                        </div>
+                        <div>
+                            <div class="contact__title">
+                                <span>Address</span>
+                            </div>
+                            <div class="contact__value">
+                                <span>Bologna, Italy</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <hr class="left-side-horizontal-line">
-                <div class="social">
-                    <p>Socials</p>
-                    <div class="contact-item">
-                        <img src="./assets/insta.png" alt="">
+                <!-- Social section -->
+                <div class="container__sidebar__content__contact">
+                    <p>Social</p>
+                    <div class="container__sidebar__content__contact__item">
                         <div>
-                            <span class="contact-label">Instagram</span>
-                            <span class="contact-value">@chiara.designs</span>
+                            <img src="./assets/insta.png" alt="instagram">
+                        </div>
+                        <div>
+                            <div class="contact__title">
+                                <span>Instagram</span>
+                            </div>
+                            <div class="contact__value">
+                                <span>@chiara.designs</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="contact-item">
-                        <img src="./assets/dribbble.png" alt="">
+                    <div class="container__sidebar__content__contact__item">
                         <div>
-                            <span class="contact-label">dribbble</span>
-                            <span class="contact-value">@chiara-designs</span>
+                            <img src="./assets/dribbble.png" alt="dribbble">
+                        </div>
+                        <div>
+                            <div class="contact__title">
+                                <span>Dribbble</span>
+                            </div>
+                            <div class="contact__value">
+                                <span>@chiara-designs</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="contact-item">
-                        <img src="./assets/twitter.png" alt="twitter">
+                    <div class="container__sidebar__content__contact__item">
                         <div>
-                            <span class="contact-label">Twitter</span>
-                            <span class="contact-value">@chiaradesigns</span>
+                            <img src="./assets/twitter.png  " alt="twitter">
+                        </div>
+                        <div>
+                            <div class="contact__title">
+                                <span>Twitter</span>
+                            </div>
+                            <div class="contact__value">
+                                <spanPhone>@chiaradesigns</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="contact-item">
-                        <img src="./assets/linkedin.png" alt="">
+                    <div class="container__sidebar__content__contact__item">
                         <div>
-                            <span class="contact-label">Linkedin</span>
-                            <span class="contact-value">chiara-bianchi-123</span>
+                            <img src="./assets/linkedin.png" alt="linkedin">
+                        </div>
+                        <div>
+                            <div class="contact__title">
+                                <span>LinkedIn</span>
+                            </div>
+                            <div class="contact__value">
+                                <span>chiara-bianchi-123</span>
+                            </div>
                         </div>
                     </div>
-
                 </div>
-                <hr class="left-side-horizontal-line">
-                <div class="language">
+                <!-- Language Section -->
+                <div class="container__sidebar__content__contact">
                     <p>Languages</p>
-                    <div class="contact-item">
-                        <img src="./assets/italian.png" alt="">
+                    <div class="container__sidebar__content__contact__item">
                         <div>
-                            <span class="contact-label">Italian</span>
-                            <span class="contact-value">Native</span>
+                            <img src="./assets/italian.png" alt="italian">
+                        </div>
+                        <div>
+                            <div class="contact__value">
+                                <span>Italian</span>
+                            </div>
+                            <div class="contact__title">
+                                <span>Native</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="contact-item">
-                        <img src="./assets/greek.png" alt="">
+                    <div class="container__sidebar__content__contact__item">
                         <div>
-                            <span class="contact-label">Greek</span>
-                            <span class="contact-value">Native</span>
+                            <img src="./assets/greek.png" alt="Greek">
+                        </div>
+                        <div>
+                            <div class="contact__value">
+                                <span>Greek</span>
+                            </div>
+                            <div class="contact__title">
+                                <span>Native</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="contact-item">
-                        <img src="./assets/english.png" alt="">
+                    <div class="container__sidebar__content__contact__item">
                         <div>
-                            <span class="contact-label">English</span>
-                            <span class="contact-value">Professional working</span>
+                            <img src="./assets/english.png  " alt="english">
+                        </div>
+                        <div>
+                            <div class="contact__value">
+                                <span>English</span>
+                            </div>
+                            <div class="contact__title">
+                                <spanPhone>Professional working</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="contact-item">
-                        <img src="./assets/spanish.png" alt="">
+                    <div class="container__sidebar__content__contact__item">
                         <div>
-                            <span class="contact-label">Spanish</span>
-                            <span class="contact-value">Elementary</span>
+                            <img src="./assets/spanish.png" alt="Spanish">
+                        </div>
+                        <div>
+                            <div class="contact__value">
+                                <span>LinkedIn</span>
+                            </div>
+                            <div class="contact__title">
+                                <span>Elementary</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="right-section">
+        </aside>
+        <main class="container__content">
             <!-- Project section -->
-            <div class="project-section timeline">
-                <p>Latest projects</p>
-                <div class="projects-container">
-                    <div class="projects">
-                        <div class="project-name">
+            <div class="container__content__projects timeline">
+                <h2>Latest projects</h2>
+                <div class="container__content__projects__items">
+                    <div class="projects__container">
+                        <div class="project__name">
                             <div>
                                 <img src="./assets/figma.png" alt="figma">
                             </div>
-                            <div class="project-text">
-                                <span class="project-title">Powerful Design System</span>
-                                <span class="project-desc">Figma UI Kit and Design System targeting a wide variety of
-                                    use cases.</span>
+                            <div>
+                                <p>Poweful Design System</p>
+                                <span>Figma UI Kit and Design System targeting a
+                                    wide variety of use cases.
+                                </span>
                             </div>
                         </div>
-                        <div class="project-link">
+                        <div class="project__link">
                             <img src="./assets/flink.png" alt="figma link">
-                            <a href="https://figma.com">https://figma.com</a>
+                            <span>http://figma.com</span>
                         </div>
                     </div>
-                    <div class="projects">
-                        <div class="project-name">
-                            <div>
-                                <img src="./assets/modernwebsite.png" alt="figma">
+                    <div>
+                        <div class="projects__container">
+                            <div class="project__name">
+                                <div>
+                                    <img src="./assets/modernwebsite.png" alt="modernwebsite">
+                                </div>
+                                <div>
+                                    <p>Modern Website</p>
+                                    <span>Powerful website + dashboard template for your next Chakra UI project.
+                                    </span>
+                                </div>
                             </div>
-                            <div class="project-text">
-                                <span class="project-title">Modern Website</span>
-                                <span class="project-desc">Powerful website + dashboard template for your next Chakra UI
-                                    project.</span>
+                            <div class="project__link">
+                                <img src="./assets/mlink.png" alt="website link">
+                                <span>http://ui-8.net</span>
                             </div>
-                        </div>
-                        <div class="project-link">
-                            <img src="./assets/mlink.png" alt="figma link">
-                            <a href="https://ui-8.net">https://ui-8.net</a>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Experience section -->
-            <div class="experience-section timeline">
-                <p class="exp-title">Experience</p>
-                <div class="experiences">
-                    <div class="experience">
-                        <div class="experience-left">
-                            <span>Jul 20 - Jan 2022 <img src="./assets/pin.png" class="location" alt=""> Cupertino
-                            </span>
-                            <div class="experience-left-content">
-                                <div>
-                                    <img src="./assets/apple.png" alt="apple">
-                                </div>
+            <div class="container__content__experience timeline">
+                <h2>Experience</h2>
+                <div class="experience__container">
+                    <div class="experience__items timeline">
+                        <div class="experience__items__left">
+                            <p>Jan 20 - Jan 2022 <img src="./assets/address.png" alt="address"> Cupertino</p>
+                            <div class="experience__post__name">
+                                <img src="./assets/apple.png" alt="apple">
                                 <div>
                                     <p>Product designer</p>
-                                    <p class="company-name">Apple</p>
+                                    <span>Apple</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="experience-right">
-                            <span>
-                                Omnis minima inventore minus. Aut et incidunt. Aut fugiat culpa illum optio dolorum aut
-                                maxime ipsa. Laborum incidunt enim consectetur perspiciatis. Dolore ullam dolor impedit
-                                dolorum recusandae facilis quo et. Et ipsam vel sunt qui ut officia voluptatem.
-                            </span>
+                        <div class="experience__items__right">
+                            <span>Omnis minima inventore minus. Aut et incidunt. Aut fugiat culpa illum optio dolorum
+                                aut maxime ipsa. Laborum incidunt enim consectetur perspiciatis. Dolore ullam dolor
+                                impedit dolorum recusandae facilis quo et. Et ipsam vel sunt qui ut officia
+                                voluptatem.</span>
                         </div>
                     </div>
-                    <div class="experience">
-                        <div class="experience-left">
-                            <span>Oct 2015 - Mar 2020 <img src="./assets/pin.png" class="location" alt=""> Austin
-                            </span>
-                            <div class="experience-left-content">
-                                <div>
-                                    <img src="./assets/sign.png" alt="apple">
-                                </div>
+                    <div class="experience__items timeline">
+                        <div class="experience__items__left">
+                            <p>Oct 2015 - Mar 2020 <img src="./assets/address.png" alt="address"> Austin</p>
+                            <div class="experience__post__name">
+                                <img src="./assets/teslaa.png" alt="tesla">
                                 <div>
                                     <p>UX designer</p>
-                                    <p class="company-name">Tesla</p>
+                                    <span>Tesla</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="experience-right">
-                            <span>
-                                Commodi atque sit ut qui assumenda earum aperiam occaecati voluptates. Fuga quas aut
-                                soluta nostrum et beatae. Maiores repudiandae quibusdam autem enim ut in possimus ad.
-                            </span>
+                        <div class="experience__items__right">
+                            <span>Commodi atque sit ut qui assumenda earum aperiam occaecati voluptates. Fuga quas aut
+                                soluta nostrum et beatae. Maiores repudiandae quibusdam autem enim ut in possimus
+                                ad.</span>
                         </div>
                     </div>
-                    <div class="experience">
-                        <div class="experience-left">
-                            <span>Sep 2014 - Aug 2015 <img src="./assets/pin.png" class="location" alt=""> Mountain View
-                            </span>
-                            <div class="experience-left-content">
-                                <div>
-                                    <img src="./assets/search.png" alt="apple">
-                                </div>
+                    <div class="experience__items timeline">
+                        <div class="experience__items__left">
+                            <p>Sep 2014 - Aug 2015 <img src="./assets/address.png" alt="address"> Mountain View</p>
+                            <div class="experience__post__name">
+                                <img src="./assets/google.png" alt="google">
                                 <div>
                                     <p>Design system architect</p>
-                                    <p class="company-name">Google</p>
+                                    <span>Google</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="experience-right">
-                            <span>
-                                Ut molestias animi. Neque voluptate velit corporis adipisci voluptate et qui sed neque.
-                                Inventore eos non. Qui eveniet quo incidunt nemo.
-                            </span>
+                        <div class="experience__items__right">
+                            <span>Ut molestias animi. Neque voluptate velit corporis adipisci voluptate et qui sed
+                                neque. Inventore eos non. Qui eveniet quo incidunt nemo.</span>
                         </div>
                     </div>
-                    <div class="experience">
-                        <div class="experience-left">
-                            <span>Sep 2010 - Aug 213 <img src="./assets/pin.png" class="location" alt=""> Berlin
-                            </span>
-                            <div class="experience-left-content">
-                                <div>
-                                    <img src="./assets/computer.png" alt="apple">
-                                </div>
+                    <div class="experience__items timeline">
+                        <div class="experience__items__left">
+                            <p>Sep 2010 - Jul 2013 <img src="./assets/address.png" alt="address">Berlin</p>
+                            <div class="experience__post__name">
+                                <img src="./assets/vectornator.png" alt="vectornator">
                                 <div>
                                     <p>Design system architect</p>
-                                    <p class="company-name">vectornator</p>
+                                    <span>Vectornator</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="experience-right">
-                            <span>
-                                Non in fugiat aut consequatur deleniti. Consequuntur impedit modi asperiores impedit ut
-                                ea aut eligendi doloremque. Fugit laborum ducimus hic tempore velit. Sed vitae et
+                        <div class="experience__items__right">
+                            <span>Non in fugiat aut consequatur deleniti. Consequuntur impedit modi asperiores impedit
+                                ut ea aut eligendi doloremque. Fugit laborum ducimus hic tempore velit. Sed vitae et
                                 corrupti omnis temporibus. Unde voluptas quaerat ea rerum aspernatur autem assumenda
-                                animi fugit. Omnis laborum velit voluptatum similique accusantium eveniet voluptatem.
-                            </span>
+                                animi fugit. Omnis laborum velit voluptatum similique accusantium eveniet
+                                voluptatem.</span>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Education Section -->
-            <div class="education-section timeline">
-                <p class="education-title">Education</p>
-                <div class="education-container">
-                    <div class="education">
-                        <div class="education-top">
+            <!-- Education section-->
+            <div class="container__content__education timeline">
+                <h2>Education</h2>
+                <div class="education__container">
+                    <div class="education__item">
+                        <div class="education__item__subject">
                             <img src="./assets/Logo.png" alt="">
-                            <span>Memorisely</span>
+                            <p>Memorisely</p>
                         </div>
-                        <div class="education-bottom">
+                        <div class="education__item__title">
                             <p>Build a design system</p>
                             <span>Oct 2021</span>
                         </div>
                     </div>
-                    <div class="education">
-                        <div class="education-top">
+                    <div class="education__item">
+                        <div class="education__item__subject">
                             <img src="./assets/ux.png" alt="">
-                            <span>UX academy</span>
+                            <p>UX acadamy</p>
                         </div>
-                        <div class="education-bottom">
+                        <div class="education__item__title">
                             <p>UX Design certificate</p>
                             <span>Feb 2020</span>
                         </div>
                     </div>
-                    <div class="education">
-                        <div class="education-top">
+                    <div class="education__item">
+                        <div class="education__item__subject">
                             <img src="./assets/doursera.png" alt="">
-                            <span>Coursera</span>
+                            <p>Coursera</p>
                         </div>
-                        <div class="education-bottom">
+                        <div class="education__item__title">
                             <p>Usera reasearch course</p>
                             <span>Dec 2019</span>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <!-- Skill section -->
-            <div class="skill-section timeline">
-                <p class="skill-title">Skills</p>
-                <div class="skill-container">
-                    <div class="skills">
-                        <div class="skill-title">
-                            <img src="./assets/design.png" alt="">
-                            <p>Design</p>
-                        </div>
-                        <div class="skills-list">
-                            <div class="skill">
-                                <div class="first-skill">
-                                    <span class="skill-vertical-bar">Web <br> Design</span>
-                                    <span>Mobile <br>Design</span>
+            <!-- Skills section -->
+            <div class="container__content__skills timeline">
+                <h2>Skills</h2>
+                <div class="skill__container">
+                    <div class="skill__container__top">
+                        <div class="skill__container__top__item">
+                            <div class="skill__container__top__item__left">
+                                <img src="./assets/design.png" alt="design">
+                                <p>Design</p>
+                            </div>
+                            <div class="skill__container__top__item__right">
+                                <div class="right__item vertical__bar">
+                                    <div class="vertical__bar__left">
+                                        <span>Web Design</span>
+                                    </div>
+                                    <div class="vertical__bar__right">
+                                        Mobile Design
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="user-experience">
-                                <span>User <br> Experience </span>
-                            </div>
-                            <div class="skill-listing">
-                                <ul>
-                                    <li>Wireframing</li>
-                                    <li>Prototying</li>
-                                    <li>Testing</li>
-                                </ul>
-                            </div>
-                            <div class="design-last-child">
-                                <span>Design <br> System</span>
+                                <div class="right__item ">
+                                    <div>
+                                        <span>Web Design</span>
+                                    </div>
+                                </div>
+                                <div class="right__item ">
+                                    <div>
+                                        <ul>
+                                            <li>Wireframing</li>
+                                            <li>Prototyping</li>
+                                            <li>Testing</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="right__item ">
+                                    <div>
+                                        <span>System Design</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="skill-container">
-                    <div class="skills">
-                        <div class="skill-title">
-                            <img src="./assets/development.png" alt="">
-                            <p>Developement</p>
-                        </div>
-                        <div class="skills-list">
-                            <div class="development-first-child">
-                                <span>Design <br> System</span>
+                    <div class="skill__container__bottom">
+                        <div class="skill__container__top__item">
+                            <div class="skill__container__top__item__left">
+                                <img src="./assets/development.png" alt="design">
+                                <p>Development</p>
                             </div>
-                            <div class="skill-listing">
-                                <ul>
-                                    <li>Chakra UI</li>
-                                    <li>Emotion</li>
-                                    <li>Framer</li>
-                                </ul>
-                            </div>
-                            <div class="skill">
-                                <div class="first-skill">
-                                    <span class="skill-vertical-bar">Type <br> Script</span>
-                                    <span>next <br>JS</span>
+                            <div class="skill__container__top__item__right">
+                                <div class="right__item ">
+                                    <div>
+                                        <span>React JS</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="last-child-development">
-                                <div class="first-skill">
-                                    <span class="html-span">HTML </span>
-                                    <div class="development-css-js">
-                                        <span class="development-css">CSS</span>
-                                        <span>JS</span>
+                                <div class="right__item ">
+                                    <div>
+                                        <ul>
+                                            <li>Chakra</li>
+                                            <li>Emotion</li>
+                                            <li>Framer</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="right__item vertical__bar">
+                                    <div class="vertical__bar__left">
+                                        <span>Type Script</span>
+                                    </div>
+                                    <div class="vertical__bar__right">
+                                        Next JS
+                                    </div>
+                                </div>
+                                <div class="right__item vertical__bar">
+                                    <div class="vertical__bar__left html__title">
+                                        <span>HTML</span>
+                                    </div>
+                                    <div class="vertical__bar__right bottom__horizontal__bar">
+                                        <div class="css__title">
+                                            <span>CSS</span>
+                                        </div>
+                                        <div>
+                                            <span>JS</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -367,64 +442,80 @@
                     </div>
                 </div>
             </div>
-            <!-- Tools section  -->
-            <div class="tool-section timeline">
-                <p class="tool-title">Tools</p>
-                <div class="tool-container">
-                    <div>
-                        <div class="tool">
-                            <img src="./assets/figma.png" alt="">
-                            <p class="tool-name">Figma</p>
-                            <span class="tool-desc">UI Design prototying</span>
+            <!-- Tools section -->
+            <div class="container__content__tools timeline">
+                <h2>Tools</h2>
+                <div class="tool__container">
+                    <div class="tool__container__top">
+                        <div class="tool__item">
+                            <div><img src="./assets/figma.png" alt="figma"></div>
+                            <div>
+                                <p>Figma</p>
+                                <span>UI Design, prototyping </span>
+                            </div>
                         </div>
-                        <div class="tool">
-                            <img src="./assets/maze.png" alt="">
-                            <p class="tool-name">Maze</p>
-                            <span class="tool-desc">Product research</span>
+                        <div class="tool__item">
+                            <div><img src="./assets/maze.png" alt="maze"></div>
+                            <div>
+                                <p>Maze</p>
+                                <span>Product research </span>
+                            </div>
                         </div>
-                        <div class="tool">
-                            <img src="./assets/spline.png" alt="">
-                            <p class="tool-name">Spline</p>
-                            <span class="tool-desc">3D design</span>
+                        <div class="tool__item">
+                            <div><img src="./assets/spline.png" alt="spline"></div>
+                            <div>
+                                <p>Spline</p>
+                                <span>3D design</span>
+                            </div>
                         </div>
-                        <div class="tool">
-                            <img src="./assets/zeplin.png" alt="">
-                            <p class="tool-name">zeplin</p>
-                            <span class="tool-desc">Design workspace</span>
+                        <div class="tool__item">
+                            <div><img src="./assets/zeplin.png" alt="Zeplin"></div>
+                            <div>
+                                <p>Zeplin</p>
+                                <span>Design workspace</span>
+                            </div>
                         </div>
                     </div>
-                    <div>
-                        <div class="tool-second-row">
-                            <img src="./assets/vectornator.png" alt="">
-                            <p class="tool-name">vectornator</p>
-                            <span class="tool-desc">Graphic Design</span>
+                    <div class="tool__container__bottom">
+                        <div class="tool__item">
+                            <div><img src="./assets/vectornator.png" alt="Vectornator"></div>
+                            <div>
+                                <p>Vectornator</p>
+                                <span>Graphic Design</span>
+                            </div>
                         </div>
-                        <div class="tool-second-row">
-                            <img src="./assets/rotato.png" alt="">
-                            <p class="tool-name">Rotatos</p>
-                            <span class="tool-desc">Mockups</span>
+                        <div class="tool__item">
+                            <div><img src="./assets/rotato.png" alt="Rotato"></div>
+                            <div>
+                                <p>Rotato</p>
+                                <span>Mockups</span>
+                            </div>
                         </div>
-                        <div class="tool-second-row">
-                            <img src="./assets/vscode.png" alt="">
-                            <p class="tool-name">VS Code</p>
-                            <span class="tool-desc">Code editor</span>
+                        <div class="tool__item">
+                            <div><img src="./assets/vscode.png" alt="VS Code"></div>
+                            <div>
+                                <p>VS Code</p>
+                                <span>Code editor</span>
+                            </div>
                         </div>
-                        <div class="tool-second-row">
-                            <img src="./assets/vectornator.png" alt="">
-                            <p class="tool-name">Xcode</p>
-                            <span class="tool-desc">iOS development</span>
+                        <div class="tool__item">
+                            <div><img src="./assets/vscode.png" alt="VS Code"></div>
+                            <div>
+                                <p>VS Code</p>
+                                <span>Code editor</span>
+                            </div>
                         </div>
-                        <div class="tool-second-row">
-                            <img src="./assets/notion.png" alt="">
-                            <p class="tool-name">Notion</p>
-                            <span class="tool-desc">Project management</span>
+                        <div class="tool__item">
+                            <div><img src="./assets/notion.png" alt="Notion"></div>
+                            <div>
+                                <p>Notion</p>
+                                <span>Project managment</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    </div>
+        </main>
     </div>
 </body>
 
