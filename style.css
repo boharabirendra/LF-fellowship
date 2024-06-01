@@ -459,7 +459,7 @@
 .tool__item span{
     color: #79819A;
     font-size: 10px;
-    font-family: var(--primary-color);
+    font-family: var(--font-dmsans);
     font-weight: 400;
 }
 
