@@ -326,7 +326,6 @@
 .development__skills {
     display: flex;
     align-items: center;
-    gap: 80px;
     margin-bottom: 50px;
 }
 
@@ -573,9 +572,15 @@
         grid-template-rows: repeat(4, 1fr);
     }
 
-    .design__skills,
-    .development__skills {
-        gap: 44px;
+    .skill__title {
+        font-size: 12px;
+        min-width: 80px;
+    }
+
+    .skill {
+        height: 125px;
+        padding: 27px;
+        font-size: 15px;
     }
 }
 
