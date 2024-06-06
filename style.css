@@ -327,6 +327,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 50px;
+    gap: 120px;
 }
 
 .skill__list {
@@ -582,6 +583,11 @@
         padding: 27px;
         font-size: 15px;
     }
+
+    .design__skills, .development__skills {
+        align-items: flex-start;
+        gap: 30px;
+    }
 }
 
 /* Tab responsive */
@@ -595,5 +601,6 @@
     .design__skills,
     .development__skills {
         gap: 44px;
+        align-items: flex-start;
     }
 }
